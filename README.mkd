@@ -31,6 +31,11 @@ Then you'll get like this.
     org.apache.jmeter:ApacheJMeter_junit:2.12
     com.github.mjeanroy:junit-servers:0.2.2
 
+# Dockerized
+
+	$ docker-compose build
+	$ docker run --rm maven-search junit
+
 # Inspired by
 
 *   [maven, browse central repository via command line client](http://stackoverflow.com/questions/14465721/maven-browse-central-repository-via-command-line-client)
